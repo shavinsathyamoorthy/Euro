@@ -11,14 +11,14 @@ export default function TopBar() {
           <div className="info-item">
             <img src={LocationVector} />
             <span>
-              <b>Наш адрес:</b>
+              <strong>Наш адрес:</strong>
               г. Бишкек, ул. Ляляля 69
             </span>
           </div>
           <div className="info-item">
             <img src={ClockVector} />
             <span>
-              <b>График работы:</b>
+              <strong>График работы:</strong>
               С 8:00 до 22:00 без выходных
             </span>
           </div>

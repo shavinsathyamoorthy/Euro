@@ -19,12 +19,11 @@
   right: 165px;
   bottom: 0;
   height: 1px;
-  background: #e9e9e9;
+  background: #e9e9e9; 
 }
 
 .info {
   display: flex;
-  align-items: center;
 }
 
 .info-item {
@@ -53,17 +52,11 @@
 }
 
 .info-item img {
-  flex: none;
   width: auto;
   height: 20px;
-  margin-top: -2px;
 }
 
-.info-item span {
-  display: block;
-}
-
-.info-item b {
+.info-item strong {
   display: block;
   font-weight: 400;
   color: #8a8a8a;
@@ -79,10 +72,8 @@
 }
 
 .phones img {
-  flex: none;
   width: auto;
   height: 20px;
-  margin-top: -2px;
 }
 
 @media (max-width: 1280px) {
