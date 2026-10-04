@@ -12,11 +12,11 @@
   box-sizing: border-box;
 }
 
-.brands-copy {
+.brands-detail {
   max-width: 560px;
 }
 
-.brands-copy h2 {
+.brands-detail h2 {
   margin: 0;
   font-weight: 700;
   font-size: 48px;
@@ -25,7 +25,7 @@
   color: #2b2b2b;
 }
 
-.brands-copy p {
+.brands-detail p {
   margin: 20px 0 0;
   font-weight: 400;
   font-size: 18px;
@@ -65,7 +65,6 @@
 
 .logo-man {
   grid-area: man;
-  justify-self: center;
 }
 
 .logo-daf {
@@ -89,7 +88,7 @@
     text-align: center;
   }
 
-  .brands-copy p {
+  .brands-detail p {
     text-align: left;
   }
 
@@ -103,7 +102,7 @@
     padding: 56px 16px;
   }
 
-  .brands-copy h2 {
+  .brands-detail h2 {
     font-size: 34px;
   }
 }

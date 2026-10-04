@@ -8,7 +8,7 @@ import '../Style/WhoArewe.css'
 export default function WhoArewe() {
   return (
     <section className="brands">
-      <div className="brands-copy">
+      <div className="brands-detail">
         <h2>У вас вопрос кто мы а кто мы блин</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio

@@ -4,7 +4,7 @@ import '../Style/Location.css'
 export default function Location() {
   return (
     <section className="location">
-      <div className="location-copy">
+      <div className="location-content">
         <h2>Где мы?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio

@@ -14,7 +14,7 @@ export default function Sliding() {
     <section className="gallery">
       <h2>Фоточки</h2>
       <div className="gallery-frame">
-        <img src={photos[active]} alt={`Фото ${active + 1}`} />
+        <img src={photos[active]} />
       </div>
       <div className="gallery-dots">
         {photos.map((_, i) => (
@@ -22,8 +22,6 @@ export default function Sliding() {
             key={i}
             type="button"
             className={i === active ? 'dot dot-active' : 'dot'}
-            aria-label={`Показать фото ${i + 1}`}
-            aria-current={i === active}
             onClick={() => setActive(i)}
           />
         ))}
