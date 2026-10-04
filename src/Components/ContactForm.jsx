@@ -1,9 +1,8 @@
-import worker from '../Assets/worker.png'
 import '../Style/ContactForm.css'
 
 export default function ContactForm() {
   return (
-    <section className="contact" style={{ backgroundImage: `url(${worker})` }}>
+    <section className="contact">
       <div className="contact-card">
         <h2>Остались вопросы?</h2>
         <p>
@@ -12,7 +11,7 @@ export default function ContactForm() {
         </p>
         <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
           <input type="text" name="name" placeholder="Имя" />
-          <input type="tel" name="phone" placeholder="Номер телефона" />
+          <input type="text" name="name" placeholder="Номер телефона" />
           <button type="submit">Отправить</button>
         </form>
       </div>

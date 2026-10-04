@@ -28,7 +28,7 @@ export default function Footer() {
           <a href="tel:+77088038888">+7 (708) 803 88 88</a>
           <a href="tel:+77085151518">+7 (708) 51 51 518</a>
           <a href="tel:+77005151518">+7 (700) 51 51 518</a>
-          <a className="footer-whatsapp" href="https://wa.me/77088028888">
+          <a className="footer-whatsapp" href="#">
             <img src={whatsappIcon} alt="" />
             +7 (708) 802 88 88
           </a>
