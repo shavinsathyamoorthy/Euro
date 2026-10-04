@@ -10,12 +10,12 @@ export default function Hero({ onAction }) {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
           et, lectus sit lorem id integer.
         </p>
-        <button className="btn-hero" type="button" onClick={onAction}>
+        <button className="btn-hero">
           Чета сделать
         </button>
       </div>
       <div className="hero-visual">
-        <img className="hero-img" src={Trucks} alt="Fleet of white trucks" />
+        <img className="hero-img" src={Trucks}/>
       </div>
     </main>
   )
