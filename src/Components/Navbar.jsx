@@ -5,13 +5,6 @@ import LocationVector from '../Assets/LocationVector.png'
 import ClockVector from '../Assets/ClockVector.png'
 import PhoneVector from '../Assets/PhoneVector.png'
 
-const links = [
-  { label: 'Это мы', href: '#about' },
-  { label: 'Почему мы?', href: '#why' },
-  { label: 'А вот поэтому', href: '#reason' },
-  { label: 'Контакты', href: '#contacts' },
-]
-
 export default function Navbar() {
   const [open, setOpen] = useState(false)
 
@@ -23,20 +16,16 @@ export default function Navbar() {
         </a>
 
         <nav className="nav">
-          {links.map((l) => (
-            <a key={l.href} href={l.href}>
-              {l.label}
-            </a>
-          ))}
+          <a href='#'>Это мы</a>
+          <a href='#'>Почему мы?</a>
+          <a href='#'>А вот поэтому</a>
+          <a href='#'>Контакты</a>
         </nav>
 
         <button className="btn-call">Заказать звонок</button>
 
         <button
-          className={open ? 'burger burger-open' : 'burger'}
-          type="button"
-          aria-label="Открыть меню"
-          aria-expanded={open}
+          className='sidebar-opener'
           onClick={() => setOpen(!open)}
         >
           <span />
@@ -69,19 +58,18 @@ export default function Navbar() {
           <div className="sidebar-info-item">
             <img src={PhoneVector} alt="" />
             <span>
-              <a href="tel:+77085151518">+7 (708) 51 51 518</a>
+              <a href="#">+7 (708) 51 51 518</a>
               <br />
-              <a href="tel:+77005151518">+7 (700) 51 51 518</a>
+              <a href="#">+7 (700) 51 51 518</a>
             </span>
           </div>
         </div>
 
         <nav className="sidebar-nav">
-          {links.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
-              {l.label}
-            </a>
-          ))}
+          <a href='#'>Это мы</a>
+          <a href='#'>Почему мы?</a>
+          <a href='#'>А вот поэтому</a>
+          <a href='#'>Контакты</a>
         </nav>
 
         <button className="btn-call sidebar-call">Заказать звонок</button>
